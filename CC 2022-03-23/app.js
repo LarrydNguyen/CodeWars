@@ -4,7 +4,7 @@
 // * "String"      -> "SSttrriinngg"
 // * "Hello World" -> "HHeelllloo  WWoorrlldd"
 // * "1234!_ "     -> "11223344!!__  "
-// Good Luck!
+
 
 function doubleChar(str) {
     // split it apart to an array 
