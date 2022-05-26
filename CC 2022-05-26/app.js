@@ -1,0 +1,26 @@
+// Given two integers a and b, which can be positive or negative, find the sum of all the integers between and including them and return it. If the two numbers are equal return a or b.
+
+// Note: a and b are not ordered!
+
+// Examples (a, b) --> output (explanation)
+// (1, 0) --> 1 (1 + 0 = 1)
+// (1, 2) --> 3 (1 + 2 = 3)
+// (0, 1) --> 1 (0 + 1 = 1)
+// (1, 1) --> 1 (1 since both are same)
+// (-1, 0) --> -1 (-1 + 0 = -1)
+// (-1, 2) --> 2 (-1 + 0 + 1 + 2 = 2)
+
+function getSum( a,b ){
+    //P:one num, neg or pos, no floats
+    //R:console
+    //E:getSum( 2,5)// 14
+        //getSum( 5,10)// 56
+    //P: getSum( 2,5){
+        //get max and min of both values
+        //average of the first and last number multiplied by the count of numbers
+        // return total
+  //}
+    let min = Math.min(a, b),
+        max = Math.max(a, b);
+    return (max - min + 1) * (min + max) / 2;
+    }
