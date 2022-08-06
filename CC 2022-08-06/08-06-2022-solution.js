@@ -8,5 +8,5 @@
 function arrayPlusArray(arr1, arr2) {
     let both = [arr1, arr2]
     let total = both.reduce((a,b)=>a.concat(b))
-    return total.reduce((a,b)=> a + b); 
+    return total.reduce((a,b)=> a + b)
   }
